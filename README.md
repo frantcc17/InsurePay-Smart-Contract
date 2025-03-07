@@ -70,8 +70,7 @@ Key guarantees:
 
 ---
 
-## 🚀 How to Use  
 
-### 1️⃣ Deploying the Contract  
-```bash
+
+
 
