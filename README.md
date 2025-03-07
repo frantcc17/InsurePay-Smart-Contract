@@ -74,5 +74,4 @@ Key guarantees:
 
 ### 1️⃣ Deploying the Contract  
 ```bash
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network sepolia
+
