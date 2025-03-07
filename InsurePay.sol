@@ -58,7 +58,7 @@ contract InsurePay {
         require(msg.value == insurance.amount, "Incorrect amount");
         require(insurance.wallet != address(0), "Insurence does not registered");
 
-    // Enviar el pago a la billetera destino
+    // Send the payment to the destination wallet
         (bool success, ) = insurance.wallet.call{value: msg.value}("");
         require(success, "Transfer failed");
 
